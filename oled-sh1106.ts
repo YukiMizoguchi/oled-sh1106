@@ -12,6 +12,8 @@ namespace OLEDSH1106 {
     //% icon="\uf1ec" 
     //% shim=OLED::init_terminal
     export function init(height: number, width: number): void {
+        Adafruit_SH1106.begin(0x2, 0x3C)
+        Adafruit_SH1106.display.println("Hello, world!");
         return;
     }
 

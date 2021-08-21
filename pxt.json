@@ -8,7 +8,8 @@
     },
     "files": [
         "oled-sh1106.ts",
-        "main.ts",
+        "Adafruit_SH1106.cpp",
+        "Adafruit_SH1106.h",
         "README.md"
     ],
     "testFiles": [
