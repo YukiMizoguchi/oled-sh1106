@@ -7,10 +7,9 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
+        "oled-sh1106.ts",
         "main.ts",
-        "README.md",
-        "main.py"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
